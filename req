@@ -1,0 +1,7 @@
+
+
+!pip install torch numpy==1.23
+!pip install unidic
+!pip install nltk
+!pip install melo
+!pip install openvoice
