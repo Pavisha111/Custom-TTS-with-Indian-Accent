@@ -1,44 +1,10 @@
 # Custom-TTS-with-Indian-Accent
 
 
-# !pip install torch numpy==1.23
-# !pip install unidic
-# !pip install nltk
-# !pip install melo
-# !pip install openvoice
-
-
-# import nltk
-# # Download the required NLTK data
-# nltk.download('averaged_perceptron_tagger_eng')
-
-# # Clone MeloTTS repository
-# !git clone https://github.com/myshell-ai/MeloTTS.git
-# %cd MeloTTS
-# !pip install .
-# !python -m unidic download
-# %cd ..
-
-# # Clone OpenVoice repository
-# !git clone https://github.com/myshell-ai/OpenVoice.git
-# %cd OpenVoice
-# !pip install .
-# !pip install numpy==1.23
-# !wget https://myshell-public-repo-host.s3.amazonaws.com/openvoice/checkpoints_v2_0417.zip
-# !unzip checkpoints_v2_0417.zip
-
-# !pip uninstall -y torch
-# !pip uninstall -y torchvision
-# !pip uninstall -y torchaudio
-
-
-# !pip install torch==1.12.1+cpu torchvision==0.13.1+cpu torchaudio==0.12.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
-
-# ls checkpoints_v2/converter/
-
-# !wget https://myshell-public-repo-host.s3.amazonaws.com/openvoice/checkpoints_v2_0417.zip
-# !unzip checkpoints_v2_0417.zip
-# tone_color_converter = ToneColorConverter(f'path_to_correct_directory/config.json', device=device)
+ls checkpoints_v2/converter/
+!wget https://myshell-public-repo-host.s3.amazonaws.com/openvoice/checkpoints_v2_0417.zip
+!unzip checkpoints_v2_0417.zip
+tone_color_converter = ToneColorConverter(f'path_to_correct_directory/config.json', device=device)
 
 import os
 import torch
